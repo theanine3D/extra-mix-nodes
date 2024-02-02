@@ -1,7 +1,7 @@
 # Extra Mix Nodes
 Blender 4.x addon that adds additional Mix nodes to the Shader Editor, with support for blending more than just 2 textures.
 
-![image](https://github.com/theanine3D/extra-mix-nodes/assets/88953117/109d6200-298b-4563-9aff-ffb1f58cc205)
+![image](https://github.com/theanine3D/extra-mix-nodes/assets/88953117/d009587b-a4dc-479c-a8a7-11b201177cb5)
 
 # Features
 - Mix colors between 3-5 different textures with just a single node
