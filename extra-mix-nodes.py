@@ -5,7 +5,7 @@ bl_info = {
     "name": "Extra Mix Nodes",
     "description": "Adds extra varieties of the Mix node, with additional color inputs, allowing for blending of more than just 2 textures",
     "author": "Theanine3D",
-    "version": (1, 0, 0),
+    "version": (1, 0, 1),
     "blender": (4, 0, 0),
     "category": "Node",
     "location": "Shader Editor",
