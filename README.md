@@ -3,7 +3,7 @@ Blender 4.x addon that adds additional Mix nodes to the Shader Editor, with supp
 
 ![image](https://github.com/theanine3D/extra-mix-nodes/assets/88953117/d009587b-a4dc-479c-a8a7-11b201177cb5)
 
-# Features
+## Features
 - Mix colors between 3-5 different textures with just a single node
 - Splat map nodes allow you to use the RGB or RBGA channels from a "splat map" texture to determine the blending.
 
