@@ -5,7 +5,7 @@ bl_info = {
     "name": "Extra Mix Nodes",
     "description": "Adds extra varieties of the Mix node, with additional color inputs, allowing for blending of more than just 2 textures",
     "author": "Theanine3D",
-    "version": (1, 0, 1),
+    "version": (1, 0, 0),
     "blender": (4, 0, 0),
     "category": "Node",
     "location": "Shader Editor",
@@ -61,7 +61,7 @@ def add_mix_nodes(dummy):
 
             map_range_1 = node_group.nodes.new(type="ShaderNodeMapRange")
             map_range_1.location = (-200, -100)
-            map_range_1.inputs[0].default_value = 0.0
+            map_range_1.inputs[1].default_value = 0.0
             map_range_1.inputs[2].default_value = 0.5
             map_range_1.inputs[3].default_value = 0.0
             map_range_1.inputs[4].default_value = 1.0
@@ -69,7 +69,7 @@ def add_mix_nodes(dummy):
 
             map_range_2 = node_group.nodes.new(type="ShaderNodeMapRange")
             map_range_2.location = (-200, -325)
-            map_range_2.inputs[0].default_value = 0.5
+            map_range_2.inputs[1].default_value = 0.5
             map_range_2.inputs[2].default_value = 1.0
             map_range_2.inputs[3].default_value = 0.0
             map_range_2.inputs[4].default_value = 1.0
@@ -133,7 +133,7 @@ def add_mix_nodes(dummy):
 
             map_range_1 = node_group.nodes.new(type="ShaderNodeMapRange")
             map_range_1.location = (-200, -100)
-            map_range_1.inputs[0].default_value = 0.0
+            map_range_1.inputs[1].default_value = 0.0
             map_range_1.inputs[2].default_value = 0.333
             map_range_1.inputs[3].default_value = 0.0
             map_range_1.inputs[4].default_value = 1.0
@@ -141,7 +141,7 @@ def add_mix_nodes(dummy):
 
             map_range_2 = node_group.nodes.new(type="ShaderNodeMapRange")
             map_range_2.location = (-200, -325)
-            map_range_2.inputs[0].default_value = 0.333
+            map_range_2.inputs[1].default_value = 0.333
             map_range_2.inputs[2].default_value = 0.666
             map_range_2.inputs[3].default_value = 0.0
             map_range_2.inputs[4].default_value = 1.0
@@ -149,7 +149,7 @@ def add_mix_nodes(dummy):
 
             map_range_3 = node_group.nodes.new(type="ShaderNodeMapRange")
             map_range_3.location = (-200, -525)
-            map_range_3.inputs[0].default_value = 0.666
+            map_range_3.inputs[1].default_value = 0.666
             map_range_3.inputs[2].default_value = 1.0
             map_range_3.inputs[3].default_value = 0.0
             map_range_3.inputs[4].default_value = 1.0
